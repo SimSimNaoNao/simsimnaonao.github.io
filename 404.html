@@ -1,13 +1,16 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>simsimnaonao</title>
+    <meta charset="utf-8">
+    <title>SIMSIMNAONAO</title>
+    <script type="text/javascript">
+      // Truque para lidar com Single Page Apps no GitHub Pages
+      var pathSegment = window.location.pathname;
+      window.location.replace(
+        window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "") + "/?path=" + pathSegment.split('/').pop()
+      );
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
